@@ -1,0 +1,27 @@
+
+extends layout
+
+block content
+  h1= title
+  p
+  a(class={active: currentUrl === '/'} href='/queryBusStationByIndex?index=1')     id查询
+
+  p
+  a(class={active: currentUrl === '/'} href='/queryBusStationByArea?name=黄村镇')     面查询
+
+  p
+  a(class={active: currentUrl === '/'} href='/nearbyQuery?lng=116.337&lat=39.7569&radius=500')     周边查询
+
+
+
+  //- p
+  //- a(class={active: currentUrl === '/'} href='/query?id=1')     定向查询
+
+  //- p
+  //- a(class={active: currentUrl === '/'} href='/addUser?id=0&name=xyz&age=18')    数据插入
+
+  //- p
+  //- a(class={active: currentUrl === '/'} href='/update')   数据更新
+
+  //- p
+  //- a(class={active: currentUrl === '/'} href='/deleteUser?id=0')    数据删除
