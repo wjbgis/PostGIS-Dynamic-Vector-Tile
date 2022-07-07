@@ -1,8 +1,8 @@
 # PostGIS-Dynamic-Vector-Tile
 
-Node + PostGIS 动态矢量切片服务 | Node + PostGIS dynamic vector tile service
+NodeJS + PostGIS 动态矢量切片服务 | NodeJS + PostGIS dynamic vector tile service
 
-基于 Node + PostGIS 实现地图数据的动态矢量切片服务。
+基于 NodeJS + PostGIS 实现地图数据的动态矢量切片服务。
 
 项目目录结构如下：
 
